@@ -33,7 +33,7 @@ public class MainActivity extends ActionBarActivity implements OnRowClickListene
         List<RowViewDes> list2 = new ArrayList<>();
         RowViewDes rowViewDes2 = new RowViewDes(R.drawable.ic_tel, "电话咨询", RowViewEnum.TI_JIAN);
         list2.add(rowViewDes2);
-        RowViewDes rowViewDes3 = new RowViewDes(R.drawable.ic_doc, "询问医生", RowViewEnum.AA);
+        RowViewDes rowViewDes3 = new RowViewDes(R.drawable.ic_doc, "询问医生", null);
         list2.add(rowViewDes3);
 
         GroupDes groupDes1 = new GroupDes(null, list2);
@@ -53,8 +53,6 @@ public class MainActivity extends ActionBarActivity implements OnRowClickListene
             case DOC:
                 break;
             case TI_JIAN:
-                break;
-            case AA:
                 break;
         }
 

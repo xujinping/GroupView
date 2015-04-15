@@ -8,15 +8,10 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity">
 
-    <!--<include-->
-    <!--android:id="@+id/layout_row"-->
-    <!--layout="@layout/item_rowview"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="wrap_content"></include>-->
 
     <com.xjp.groupview.ContainerView
         android:id="@+id/containerView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content" />
 
 </RelativeLayout>

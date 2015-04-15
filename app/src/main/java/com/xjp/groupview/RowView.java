@@ -78,6 +78,9 @@ public class RowView extends LinearLayout implements View.OnClickListener {
         /**
          * 点击事件回调
          */
-        mOnRowView.onClick(rowViewEnum);
+        if (null != rowViewEnum) {
+            mOnRowView.onClick(rowViewEnum);
+        }
+
     }
 }
